@@ -1,0 +1,81 @@
+
+.App {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    padding: 5px 15px;
+
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    font-weight: bold;
+    color: beige;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.add {
+    background-color: green;
+}
+
+.delete {
+    margin-bottom: 10px;
+    background-color: orangered;
+}
+
+.todoList li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.buttonsList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    border: 2px solid red;
+}
+.error-message {
+    color: orangered;
+}
+
+.active-button {
+    background-color: blue;
+}
+
+.is-done {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
